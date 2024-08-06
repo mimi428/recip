@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/foodie3.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; /* Adding a default font family */
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20vh; /* Adjust the top margin to center vertically */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); /* Box shadow for depth */
+}
+
+/* CSS for the login-box */
+.login-box {
+    margin-top: 30px;
+}
+
+/* CSS for the textbox */
+.textbox {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* CSS for the icon */
+.textbox i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #777;
+}
+
+/* CSS for the input fields */
+.textbox input {
+    width: calc(100% - 30px);
+    padding: 10px;
+    padding-left: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* CSS for the button */
+.button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* CSS for the button hover effect */
+.button:hover {
+    background-color: #45a049;
+}
